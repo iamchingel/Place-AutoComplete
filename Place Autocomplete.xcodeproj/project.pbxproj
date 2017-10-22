@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5CC74558106C1B6472D174C8 /* Pods_Place_Autocomplete.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1095E32FFDBA8F1FCE81D2B /* Pods_Place_Autocomplete.framework */; };
 		C8E02D6A1F9C653C00DCB7A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E02D691F9C653C00DCB7A1 /* AppDelegate.swift */; };
 		C8E02D6C1F9C653C00DCB7A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E02D6B1F9C653C00DCB7A1 /* ViewController.swift */; };
 		C8E02D6F1F9C653C00DCB7A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8E02D6D1F9C653C00DCB7A1 /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A67B655A713741CE5F19F13 /* Pods-Place Autocomplete.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Place Autocomplete.release.xcconfig"; path = "Pods/Target Support Files/Pods-Place Autocomplete/Pods-Place Autocomplete.release.xcconfig"; sourceTree = "<group>"; };
+		A2BFD98031BBE9A6D11B6E9B /* Pods-Place Autocomplete.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Place Autocomplete.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Place Autocomplete/Pods-Place Autocomplete.debug.xcconfig"; sourceTree = "<group>"; };
 		C8E02D661F9C653C00DCB7A1 /* Place Autocomplete.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Place Autocomplete.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8E02D691F9C653C00DCB7A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C8E02D6B1F9C653C00DCB7A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		C8E02D701F9C653C00DCB7A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8E02D731F9C653D00DCB7A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C8E02D751F9C653D00DCB7A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1095E32FFDBA8F1FCE81D2B /* Pods_Place_Autocomplete.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Place_Autocomplete.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CC74558106C1B6472D174C8 /* Pods_Place_Autocomplete.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		50376317B7C8DE78481139CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1095E32FFDBA8F1FCE81D2B /* Pods_Place_Autocomplete.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C8E02D5D1F9C653C00DCB7A1 = {
 			isa = PBXGroup;
 			children = (
 				C8E02D681F9C653C00DCB7A1 /* Place Autocomplete */,
 				C8E02D671F9C653C00DCB7A1 /* Products */,
+				FA4B4D44E8D1897F0941598E /* Pods */,
+				50376317B7C8DE78481139CF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +79,15 @@
 			path = "Place Autocomplete";
 			sourceTree = "<group>";
 		};
+		FA4B4D44E8D1897F0941598E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2BFD98031BBE9A6D11B6E9B /* Pods-Place Autocomplete.debug.xcconfig */,
+				4A67B655A713741CE5F19F13 /* Pods-Place Autocomplete.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C8E02D781F9C653D00DCB7A1 /* Build configuration list for PBXNativeTarget "Place Autocomplete" */;
 			buildPhases = (
+				7D1828951B5C5C859F9B5A2C /* [CP] Check Pods Manifest.lock */,
 				C8E02D621F9C653C00DCB7A1 /* Sources */,
 				C8E02D631F9C653C00DCB7A1 /* Frameworks */,
 				C8E02D641F9C653C00DCB7A1 /* Resources */,
+				D8B154B2C1A08862CD7E4318 /* [CP] Embed Pods Frameworks */,
+				D9360902099BAFC794097DA0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,6 +157,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7D1828951B5C5C859F9B5A2C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D8B154B2C1A08862CD7E4318 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Place Autocomplete/Pods-Place Autocomplete-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9360902099BAFC794097DA0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Place Autocomplete/Pods-Place Autocomplete-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C8E02D621F9C653C00DCB7A1 /* Sources */ = {
@@ -260,6 +335,7 @@
 		};
 		C8E02D791F9C653D00DCB7A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2BFD98031BBE9A6D11B6E9B /* Pods-Place Autocomplete.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Place Autocomplete/Info.plist";
@@ -272,6 +348,7 @@
 		};
 		C8E02D7A1F9C653D00DCB7A1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A67B655A713741CE5F19F13 /* Pods-Place Autocomplete.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Place Autocomplete/Info.plist";

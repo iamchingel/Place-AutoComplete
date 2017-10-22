@@ -1,0 +1,6 @@
+framework module Pods_Place_Autocomplete {
+  umbrella header "Pods-Place Autocomplete-umbrella.h"
+
+  export *
+  module * { export * }
+}
